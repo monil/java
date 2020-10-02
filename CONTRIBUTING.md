@@ -41,7 +41,7 @@ First things first: by contributing to Exercism, you are making this learning to
 
 To submit a fix for an existing exercise or port an exercise to Java with the least amount of setup:
 
-1. **Ensure you have the basic Java tooling installed:**  JDK 1.8+, an editor and Gradle 2.x.
+1. **Ensure you have the basic Java tooling installed:**  JDK 1.11+, an editor and Gradle 2.x.
 
    (see [exercism.io: Installing Java](http://exercism.io/languages/java/installation))
 -  **Setup a branch on a fork of [exercism/java](https://github.com/exercism/java) on your computer.**
@@ -237,7 +237,7 @@ To run this script:
 
   1. Clone [the problem-specifications repository](https://github.com/exercism/problem-specifications).
 
-  2. Run `./scripts/canonical_data_check.sh -t . -s --spec-path path_to_problem_specifications` from the root of this repository.
+  2. Run `./scripts/canonical_data_check.sh -t . -s path_to_problem_specifications` from the root of this repository.
   
 ## Checking tests are up to date and submit new issues
 
